@@ -1,0 +1,197 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+conda-env/
+
+# PyTorch & ML Models
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+model_*.bin
+pytorch_model.bin
+
+# Training outputs & logs
+logs/
+wandb/
+tensorboard_logs/
+tb_logs/
+runs/
+outputs/
+out/
+results/
+experiments/
+checkpoints/
+ckpts/
+ckpts_*/
+saved_models/
+
+# Data directories (customize based on your setup)
+data/
+dataset/
+datasets/
+cityscapes/
+cityscapes_dataset/
+*.zip
+*.tar
+*.tar.gz
+
+# Generated images & visualizations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+generated_*/
+visualizations/
+samples/
+inference_results/
+vae_test_results/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# CUDA & GPU cache
+.nv/
+.cuda_cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+
+# Configuration files with secrets
+.env.local
+.env.production
+config.yaml
+secrets.yaml
+credentials.json
+
+# Large files that shouldn't be in git
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.mat
+
+# Compiled extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Scrapy stuff
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# pyenv
+.python-version
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+flash-attention/

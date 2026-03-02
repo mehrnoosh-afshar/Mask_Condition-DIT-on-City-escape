@@ -1,0 +1,41 @@
+name: cityscapes-dit-latent
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pillow
+  - tqdm
+  - pyyaml
+  - scipy
+
+  # PyTorch (CUDA 12.1 build). If your driver/CUDA differs, change the cuda version here.
+  - pytorch=2.4.*
+  - torchvision=0.19.*
+  - pytorch-cuda=12.1
+
+  # Data / vision
+  - opencv
+  - albumentations
+
+  # Optional (handy for Cityscapes mapping/eval scripts)
+  - pip:
+      # Training + logging
+      - accelerate>=0.30
+      - wandb>=0.16
+      - ema-pytorch>=0.5.2
+
+      # Latent VAE + text tooling (diffusers pulls safetensors, etc.)
+      - diffusers>=0.30
+      - transformers>=4.41
+      - safetensors>=0.4.3
+      - huggingface-hub>=0.24
+
+      # General utils
+      - einops>=0.8.0
+
+      # Optional: official Cityscapes helpers (label mapping, etc.)
+      - cityscapesscripts>=2.2.4
