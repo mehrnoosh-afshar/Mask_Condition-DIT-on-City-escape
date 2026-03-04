@@ -59,8 +59,6 @@ saved_models/
 
 # Data directories (customize based on your setup)
 data/
-dataset/
-datasets/
 cityscapes/
 cityscapes_dataset/
 *.zip

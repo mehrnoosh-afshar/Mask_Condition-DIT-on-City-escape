@@ -11,6 +11,9 @@ dependencies:
   - tqdm
   - pyyaml
   - scipy
+  - diffusers
+  - transformers
+  - safetensors
 
   # PyTorch (CUDA 12.1 build). If your driver/CUDA differs, change the cuda version here.
   - pytorch=2.4.*

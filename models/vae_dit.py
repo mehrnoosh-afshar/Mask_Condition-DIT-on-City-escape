@@ -6,7 +6,7 @@ from typing import Optional, Tuple
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from diffusers.models import AutoencoderKL
+from diffusers import AutoencoderKL
 
 
 # ----------------------------
